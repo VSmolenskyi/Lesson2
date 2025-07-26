@@ -1,0 +1,77 @@
+  body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 350px;
+      text-align: center;
+    }
+
+    .tabs {
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+
+    .tabs .active {
+      font-weight: bold;
+    }
+
+    .tabs .divider {
+      color: #ccc;
+      margin: 0 10px;
+    }
+
+    .tabs .green {
+      color: #2e7d32;
+      cursor: pointer;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+
+    .password-field {
+      position: relative;
+    }
+
+    .password-field input {
+      padding-right: 35px;
+    }
+
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #2e7d32;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+.eye-icon {
+      position: absolute;
+      right: 10px;
+      top: 35%;
+      cursor: pointer;
+      font-size: 18px;
+      color: #555;
+    }
+   
+  
